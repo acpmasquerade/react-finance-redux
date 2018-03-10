@@ -3,7 +3,7 @@ const ReactDOM = require("react-dom");
 const { Provider } = require("react-redux");
 const { Route, Router, IndexRoute, hashHistory } = require("react-router");
 
-const store = require("configureStore").configure();
+//const store = require("configureStore").configure();
 import FinanceApp from "FinanceApp";
 import firebase from "app/firebase/";
 
